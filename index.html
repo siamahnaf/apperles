@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Made By Siam Ahnaf</title>
+    <!-- Fonts & Favicon -->
+    <link rel="shortcut icon" href="img/fevicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap" rel="stylesheet">
+    <!-- Dependencies -->
+    <link rel="stylesheet" href="css/plugin.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="screenLoading()">
+    <!-- Loader Screen -->
+    <div class="pre_loader">
+        <div class="loader"></div>
+    </div>
+    <!-- Header -->
+    <header class="header_nav">
+        <nav class="main_nav">
+            <!-- Header color -->
+            <div class="header_color"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col xl2 l2 m5 s6">
+                        <div class="logo_area">
+                            <!-- Logo Area -->
+                            <a class="waves-effect waves-light" href="#">
+                                <!-- Logo one -->
+                                <img class="logo_img" src="img/logo.svg" alt="Logo">
+                                <!-- Logo two -->
+                                <img class="titl_img" src="img/title.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col xl10 l10 m7 s6">
+                        <!-- Navigations -->
+                        <div class="nav_links">
+                            <ul>
+                                <!-- Nav Items -->
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="0">home</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="1">features</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="2">screenshots</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="3">download</a></li>
+                                <li><a class="waves-effect waves-light dropdown-button news_dropdownac" href="#" data-activates="news_dropdown">news
+                                    <!-- Dropdown Menu -->
+                                    <span><i class="fas fa-chevron-down"></i></span>
+                                </a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="5">pricing</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="6">FAQs</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="7">contact</a></li>
+                                <li><a class="waves-effect waves-light hambur_bg">
+                                    <!-- Bar Icon -->
+                                    <div class="hambur_content">
+                                        <div class="hamburger">
+                                            <svg viewBox="0 0 800 600">
+                                                <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" class="top"></path>
+                                                <path d="M300,320 L540,320" class="middle"></path>
+                                                <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" class="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                                <!-- Hambauger Bar -->
+                                <ul class="ham_dropdown">
+                                    <li><a class="waves-effect waves-light blue ham_1" href="#"><i class="ti-facebook"></i></a></li>
+                                    <li><a class="waves-effect waves-light blue lighten-2 ham_2" href="#"><i class="ti-twitter-alt"></i></a></li>
+                                    <li><a class="waves-effect waves-light amber ham_3" href="#"><i class="ti-instagram"></i></a></li>
+                                    <li><a class="waves-effect waves-light red ham_4" href="#"><i class="ti-youtube"></i></a></li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <!-- News Dropdown -->
+                            <ul id="news_dropdown" class="dropdown-content">
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="4">section news</a></li>
+                                <li class="divider"></li>
+                                <li><a class="waves-effect waves-light" href="#">news page</a></li>
+                                <li><a class="waves-effect waves-light" href="#">single_news Page</a></li>
+                            </ul>
+                        </div>
+                        <!-- Side Navigations -->
+                        <a href="#" data-activates="slide-out" class="button-collapse">
+                            <div class="hambur_content mobile_ber">
+                                <div class="hamburger_sidebar">
+                                    <svg viewBox="0 0 800 600">
+                                        <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" class="top"></path>
+                                        <path d="M300,320 L540,320" class="middle"></path>
+                                        <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" class="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Side bar nav links -->
+                        <div class="side_nav_links">
+                            <ul id="slide-out" class="side-nav">
+                                <li class="side_logo_image">
+                                    <a href="#">
+                                        <img class="side_logo" src="img/logo.svg" alt="">
+                                        <br>
+                                        <img class="side_title" src="img/title.png" alt="">
+                                    </a>
+                                </li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="0">home</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="1">features</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="2">screenshots</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="3">download</a></li>
+                                <li>
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                            <div class="collapsible-header Side_accordian">News <span><i class="fas fa-chevron-down"></i></span></div>
+
+                                          <div class="collapsible-body side_body">
+                                            <a class="waves-effect waves-light no-bg" data-scroll-nav="4" href="#">News Section</a>
+                                            <a class="waves-effect waves-light no-bg" href="">News Page</a>
+                                            <a class="waves-effect waves-light no-bg" href="">Single News Page</a>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                </li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="5">pricing</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="6">FAQs</a></li>
+                                <li><a class="waves-effect waves-light" href="#" data-scroll-nav="7">contact</a></li>
+                                <li class="sidenav_social">
+                                    <a href="#">
+                                        <i class="ti-facebook waves-effect waves-light blue"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="ti-twitter-alt waves-effect waves-light light-blue lighten-2"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="ti-instagram waves-effect waves-light amber darken-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="ti-youtube waves-effect waves-light red"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Home Sections -->
+    <section class="home_section" data-scroll-index="0">
+        <div class="container">
+            <div class="row">
+                <div class="col xl7 l7 m12 s12">
+                    <!-- Hero Container -->
+                    <div class="home_content">
+                        <!-- Apperle Title -->
+                        <img src="img/title.png" alt="title">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto deleniti, dicta facere fugit illum Eius laborum optio porro.</p>
+                        <!-- Home Btn -->
+                        <div class="home_btn">
+                            <a href="#">find more about us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col xl3 l3 m6 s4 offset-xl1 offset-l1 offset-m3 offset-s4">
+                    <!-- Home Slider -->
+                    <div class="owl-carousel owl-theme home_slider">
+                        <!-- Single Slider -->
+                        <div class="slide_item">
+                            <img src="img/1-4.png" alt="">
+                        </div>
+                        <!-- Single Slider -->
+                        <div class="slide_item">
+                            <img src="img/1-3.png" alt="">
+                        </div>
+                        <!-- Single Slider -->
+                        <div class="slide_item">
+                            <img src="img/1-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about_section">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Section Header -->
+                    <div class="heading">
+                        <h1>About Apperle</h1>
+                        <!-- Divider -->
+                        <img src="img/line-break-10.svg" alt="line break">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate deleniti eaque earum iste itaque quia rerum! Ea excepturi facere incidunt ipsam iure libero nemo, non pariatur rerum sequi voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section Header -->
+            <div class="row">
+                <!-- Single About -->
+                <div class="col sl4 l4 m12 s12">
+                    <div class="single_about">
+                        <!-- About Icon -->
+                        <div class="about_icon waves-effect waves-light">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <div class="about_text">
+                            <h4>Unique Layout</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta earum error incidunt laborum quibusdam?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single About -->
+                <div class="col xl4 l4 m12 s12">
+                    <div class="single_about">
+                        <!-- About Icon -->
+                        <div class="about_icon waves-effect waves-light">
+                            <i class="fas fa-pencil-alt"></i>
+                        </div>
+                        <div class="about_text">
+                            <h4>Well Documented</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta earum error incidunt laborum quibusdam?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single About -->
+                <div class="col xl4 l4 m12 s12">
+                    <div class="single_about">
+                        <!-- About Icon -->
+                        <div class="about_icon waves-effect waves-light">
+                            <i class="fab fa-superpowers"></i>
+                        </div>
+                        <div class="about_text">
+                            <h4>Super Fast</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta earum error incidunt laborum quibusdam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features Section -->
+    <section class="features_section" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Section Header -->
+                    <div class="heading">
+                        <h2>features</h2>
+                         <!-- Divider -->
+                        <img src="img/line-break-white.svg" alt="line break">
+                    </div>
+                </div>
+            </div>
+             <!-- Section Container -->
+            <div class="row">
+                <!-- Features Left -->
+                <div class="col xl4 l4 m12 s12">
+                    <div class="features_left features_whole">
+                        <!-- Single Fetureas -->
+                        <div class="single_features">
+                            <a class="item features_content active" data-owl-item="0">
+                                <div class="features_title">
+                                    <h5>super fast</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                                </div>
+                                <!-- Fetureas Icons -->
+                                <div class="features_icon waves-effect waves-light">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single Fetureas -->
+                        <div class="single_features">
+                            <a class="item features_content" data-owl-item="1">
+                                <div class="features_title">
+                                    <h5>unlimited features</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                                </div>
+                                <!-- Fetureas Icons -->
+                                <div class="features_icon waves-effect waves-light">
+                                    <i class="far fa-lightbulb"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single Fetureas -->
+                        <div class="single_features">
+                            <a class="item features_content" data-owl-item="2">
+                                <div class="features_title">
+                                    <h5>user friendly</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                                </div>
+                                <!-- Fetureas Icons -->
+                                <div class="features_icon waves-effect waves-light">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Features Middle -->
+                <div class="col xl4 l4 m6 s12 offset-m3">
+                    <!-- Features Slider -->
+                    <div class="owl-carousel  features_slider">
+                        <!-- Single Slide -->
+                        <div class="features_item_slider">
+                            <img src="img/1-4.png" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="features_item_slider">
+                            <img src="img/1-1.png" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="features_item_slider">
+                            <img src="img/1-3.png" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="features_item_slider">
+                            <img src="img/1-4.png" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="features_item_slider">
+                            <img src="img/1-3.png" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="features_item_slider">
+                            <img src="img/1-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Fetures -->
+                <div class="col xl4 l4 m12 s12">
+                    <div class="features_right">
+                        <!-- Single Fetureas -->
+                        <div class="single_features">
+                            <a class="item features_content" data-owl-item="3">
+                                <div class="features_icon waves-effect waves-light">
+                                    <i class="far fa-eye"></i>
+                                </div>
+                                <!-- Fetureas Icons -->
+                                <div class="features_title">
+                                    <h5>ratina ready</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single Fetureas -->
+                        <div class="single_features">
+                            <a class="item features_content" data-owl-item="4">
+                                <div class="features_icon waves-effect waves-light">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <!-- Fetureas Icons -->
+                                <div class="features_title">
+                                    <h5>well documented</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single Fetureas -->
+                        <div class="single_features">
+                            <a class="item features_content" data-owl-item="5">
+                                <div class="features_icon waves-effect waves-light">
+                                    <i class="fab fa-superpowers"></i>
+                                </div>
+                                <!-- Fetureas Icons -->
+                                <div class="item features_title">
+                                    <h5>Super powers</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Show Case Section -->
+    <section class="show_chase">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Section Header -->
+                    <div class="heading">
+                        <h1>show case</h1>
+                        <!-- Divider -->
+                        <img src="img/line-break-10.svg" alt="line break">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate deleniti eaque earum iste itaque quia rerum! Ea excepturi facere incidunt ipsam iure libero nemo, non pariatur rerum sequi voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section Container -->
+            <div class="row">
+                <!-- Single Show Case -->
+                <div class="col xl6 l6 m12 s12">
+                    <div class="show_case_content" data-aos="fade-right" data-aos-delay="100">
+                        <h3>Eye catching details.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cumque debitis deleniti exercitationem ipsa laborum neque repellendus unde ut voluptates?.</p>
+                        <div class="showcase_content_icon">
+                            <div class="show_case_icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <div class="show_case_text">
+                                <h5>Super Fast</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                            </div>
+                        </div>
+                        <div class="showcase_content_icon">
+                            <div class="show_case_icon">
+                                <i class="far fa-lightbulb"></i>
+                            </div>
+                            <div class="show_case_text">
+                                <h5>Unlimited Features</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Show Case -->
+                <div class="col xl6 l6 m12 s12">
+                    <div class="show_case_img" data-aos="fade-left" data-aos-delay="200">
+                        <img src="img/3-1.png" alt="Show Case">
+                        <img class="show_case_abs_img" src="img/3-2.png" alt="Show Case">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single Show Case -->
+                <div class="col xl6 l6 m12 s12 desktop">
+                    <div class="show_case_img" data-aos="fade-right" data-aos-delay="100">
+                        <img src="img/2-1.png" alt="Show Case">
+                        <img class="show_case_abs_img" src="img/2-2.png" alt="Show Case">
+                    </div>
+                </div>
+                <!-- Single Show Case -->
+                <div class="col xl6 l6 m12 s12">
+                    <div class="show_case_content" data-aos="fade-left" data-aos-delay="200">
+                        <h3>Unique custom design.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cumque debitis deleniti exercitationem ipsa laborum neque repellendus unde ut voluptates?.</p>
+                        <div class="showcase_content_icon">
+                            <div class="show_case_icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="show_case_text">
+                                <h5>Well Documented</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                            </div>
+                        </div>
+                        <div class="showcase_content_icon">
+                            <div class="show_case_icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="show_case_text">
+                                <h5>Full Chat</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Show Case -->
+                <div class="col xl6 l6 m12 s12 mobile">
+                    <div class="show_case_img" data-aos="fade-left" data-aos-delay="200">
+                        <img src="img/2-1.png" alt="Show Case">
+                        <img class="show_case_abs_img" src="img/2-2.png" alt="Show Case">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single Show Case -->
+                <div class="col xl6 l6 m12 s12">
+                    <div class="show_case_content" data-aos="fade-right" data-aos-delay="100">
+                        <h3>Awesome built-in features.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cumque debitis deleniti exercitationem ipsa laborum neque repellendus unde ut voluptates?.</p>
+                        <div class="showcase_content_icon">
+                            <div class="show_case_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                            <div class="show_case_text">
+                                <h5>Retina Ready</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                            </div>
+                        </div>
+                        <div class="showcase_content_icon">
+                            <div class="show_case_icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div class="show_case_text">
+                                <h5>User Friendly</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Show Case -->
+                <div class="col xl6 l6 m12 s12">
+                    <div class="show_case_img" data-aos="fade-left" data-aos-delay="200">
+                        <img src="img/3-2.png" alt="Show Case">
+                        <img class="show_case_abs_img" src="img/3-1.png" alt="Show Case">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe Section -->
+    <section class="subscribe_section">
+        <div class="container">
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col xl4 l4 m12 s12">
+                    <!-- Section header -->
+                    <div class="subscribe_text">
+                        subscribe
+                    </div>
+                </div>
+                <div class="col xl8 l8 m12 s12">
+                    <!-- Subscribe Form -->
+                    <form class="subscribe_form" action="">
+                        <input class="subscribe_input" type="email">
+                        <label class="Subscribe_level" for="">Email</label>
+                        <!-- Subscribe Form Icon -->
+                        <button class="subscribe_btn" type="button">
+                            <i class="fas fa-paper-plane subscribe_one"></i>
+                            <i class="fas fa-paper-plane subscribe_two"></i>
+                            <i class="fas fa-circle-notch spin_sub"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Screen Shot Section -->
+    <section class="screenshot_section" data-scroll-index="2">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Screenshot Section Header -->
+                    <div class="heading">
+                        <h1>Screenshots</h1>
+                        <!-- Divider -->
+                        <img src="img/line-break-10.svg" alt="line break">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate deleniti eaque earum iste itaque quia rerum! Ea excepturi facere incidunt ipsam iure libero nemo, non pariatur rerum sequi voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section Container -->
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Carousel -->
+                    <div class="carousel shots_slider">
+                        <!-- Single Slide -->
+                        <a class="carousel-item" href="img/1-1.png" data-lity data-lity-desc="Photo of a flower"><img src="img/1-1.png"></a>
+                        <!-- Single Slide -->
+                        <a class="carousel-item" href="img/1-2.png" data-lity data-lity-desc="Photo of a flower"><img src="img/1-2.png"></a>
+                        <!-- Single Slide -->
+                        <a class="carousel-item" href="img/1-3.png" data-lity data-lity-desc="Photo of a flower"><img src="img/1-3.png"></a>
+                        <!-- Single Slide -->
+                        <a class="carousel-item" href="img/1-4.png" data-lity data-lity-desc="Photo of a flower"><img src="img/1-4.png"></a>
+                        <!-- Single Slide -->
+                        <a class="carousel-item" href="img/1-1.png" data-lity data-lity-desc="Photo of a flower"><img src="img/1-1.png"></a>
+                    </div>
+                    <!-- Slide Indicator -->
+                    <div class="slider_indicator">
+                        <span class="prev"><i class="fas fa-chevron-left"></i></span>
+                        <span class="next"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section -->
+    <section class="testimonial_section">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Testimonial Section Header -->
+                    <div class="heading">
+                        <h2>testimonial</h2>
+                        <!-- Divider -->
+                        <img src="img/line-break-white.svg" alt="line break">
+                    </div>
+                </div>
+            </div>
+            <!-- Section Container -->
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Carousel -->
+                    <div class="testimonial_slider owl-carousel owl-theme">
+                        <!-- Single Testimonial Slide -->
+                        <div class="testimonial_item">
+                            <!-- Single Testimonial Slide Image -->
+                            <img src="img/testimonials1.jpg" alt="testimonial">
+                            <!-- Single Testimonial Content -->
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit in odit tempora voluptates? Consequuntur deleniti deserunt impedit, inventore iste numquam optio porro possimus sunt voluptates!</p>
+                            <h4>Siam Ahnaf</h4>
+                            <!-- Single Testimonial Slide Star -->
+                            <div class="star_slider">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        <!-- Single Testimonial Slide -->
+                        <div class="testimonial_item">
+                            <!-- Single Testimonial Slide Image -->
+                            <img src="img/testimonials3.jpg" alt="Testimonial">
+                            <!-- Single Testimonial Slide Content -->
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit in odit tempora voluptates? Consequuntur deleniti deserunt impedit, inventore iste numquam optio porro possimus sunt voluptates!</p>
+                            <h4>Siam Ahnaf</h4>
+                            <!-- Single Testimonial Slide star -->
+                            <div class="star_slider">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                        <!-- Single Testimonial Slide -->
+                        <div class="testimonial_item">
+                            <!-- Single Testimonial Slide Image -->
+                            <img src="img/testimonials4.jpg" alt="">
+                            <!-- Single Testimonial Slide Content -->
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit in odit tempora voluptates? Consequuntur deleniti deserunt impedit, inventore iste numquam optio porro possimus sunt voluptates!</p>
+                            <h4>Siam Ahnaf</h4>
+                            <!-- Single Testimonial Slide Star -->
+                            <div class="star_slider">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section -->
+    <section class="team_section">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Team Section Header -->
+                    <div class="heading">
+                        <h1>Behind The Story</h1>
+                        <!-- Divider -->
+                        <img src="img/line-break-10.svg" alt="line break">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate deleniti eaque earum iste itaque quia rerum! Ea excepturi facere incidunt ipsam iure libero nemo, non pariatur rerum sequi voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section Container -->
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Team Slider Owl Carousel -->
+                    <div class="team_slider owl-carousel owl-theme">
+                        <!-- Single carousel slide -->
+                        <div class="item_team">
+                            <div class="item_team_img">
+                                <!-- Single carousel slide Image -->
+                                <img src="img/team1.jpg" alt="test">
+                                <!-- Single carousel slide Hover -->
+                                <div class="team_hover">
+                                    <ul>
+                                        <!-- Single carousel slide Social list -->
+                                        <li class="facebook"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="twitter"><a href=""><i class="fab fa-twitter"></i></a></li>
+                                        <li class="linkedin"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="pinterest"><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team_opa"></div>
+                            </div>
+                            <h6>Farzana Mim</h6>
+                            <p>Web Developer</p>
+                        </div>
+                        <!-- Single carousel slide -->
+                        <div class="item_team">
+                            <div class="item_team_img">
+                                <!-- Single carousel slide Image -->
+                                <img src="img/team2.jpg" alt="">
+                                <!-- Single carousel slide Content hover -->
+                                <div class="team_hover">
+                                    <ul>
+                                        <!-- Single carousel slide Social list -->
+                                        <li class="facebook"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="twitter"><a href=""><i class="fab fa-twitter"></i></a></li>
+                                        <li class="linkedin"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="pinterest"><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team_opa"></div>
+                            </div>
+                            <h6>Siam Ahnaf</h6>
+                            <p>Web Developer</p>
+                        </div>
+                        <!-- Single carousel slide -->
+                        <div class="item_team">
+                            <div class="item_team_img">
+                                <!-- Single carousel slide Image -->
+                                <img src="img/team3.jpg" alt="">
+                                <!-- Single carousel slide Hover -->
+                                <div class="team_hover">
+                                    <ul>
+                                        <!-- Single carousel slide social List -->
+                                        <li class="facebook"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="twitter"><a href=""><i class="fab fa-twitter"></i></a></li>
+                                        <li class="linkedin"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="pinterest"><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team_opa"></div>
+                            </div>
+                            <h6>Fahmida Rahman</h6>
+                            <p>Web Developer</p>
+                        </div>
+                        <!-- Single carousel slide -->
+                        <div class="item_team">
+                            <div class="item_team_img">
+                                <!-- Single carousel slide Image -->
+                                <img src="img/team2.jpeg" alt="">
+                                <!-- Single carousel slide content hover -->
+                                <div class="team_hover">
+                                    <ul>
+                                        <!-- Single carousel slide social list -->
+                                        <li class="facebook"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="twitter"><a href=""><i class="fab fa-twitter"></i></a></li>
+                                        <li class="linkedin"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="pinterest"><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team_opa"></div>
+                            </div>
+                            <h6>Arif Hossain</h6>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get it now section -->
+    <section class="getit_section" data-scroll-index="3">
+        <div class="getit_img">
+            <!-- Get it image -->
+            <img src="img/1-1.png" alt="">
+        </div>
+        <div class="container">
+            <!-- Container -->
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <div class="heading">
+                        <!-- Get it section header -->
+                        <h2>get it now</h2>
+                        <!-- Divider -->
+                        <img src="img/line-break-white.svg" alt="line break">
+                    </div>
+                </div>
+            </div>
+            <!-- Section Header -->
+            <div class="row">
+                <div class="col xl8 l8 m12 s12">
+                    <div class="getit_content">
+                        <p>
+                            The New Apperle App Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, veniam! Lorem ipsum dolor sit amet, consectetur.
+                        </p>
+                        <!-- Single Get it- Apple Store -->
+                        <div class="apple waves-effect waves-light">
+                            <a href="">
+                                <span class="get_icon">
+                                    <i class="fab fa-apple"></i>
+                                </span>
+                                <span class="get_text">
+                                    <small>avaiable on</small> <br>
+                                    Apple Store
+                                </span>
+                            </a>
+                        </div>
+                         <!-- Single Get it- Google play -->
+                        <div class="google waves-effect waves-light">
+                            <a href="">
+                                <span class="get_icon">
+                                    <i class="fab fa-google-play"></i>
+                                </span>
+                                <span class="get_text">
+                                    <small>avaiable on</small>
+                                    <br>
+                                    Google Store
+                                </span>
+                            </a>
+                        </div>
+                         <!-- Single Get it- Windows software -->
+                        <div class="windows waves-effect waves-light">
+                            <a href="">
+                                <span class="get_icon">
+                                    <i class="fab fa-windows"></i>
+                                </span>
+                                <span class="get_text">
+                                    <small>avaiable on</small>
+                                    <br>
+                                    Windows Store
+                                </span>
+                            </a>
+                        </div>
+                         <!-- Single Get it- Scan QR Code -->
+                        <div class="qrcode waves-effect waves-light">
+                            <a href="">
+                                Scan QR Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- News Section -->
+    <section class="news_section" data-scroll-index="4">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                     <!-- News Section Header -->
+                    <div class="heading">
+                        <h1>Latest News</h1>
+                         <!-- Divider -->
+                        <img src="img/line-break-10.svg" alt="line break">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate deleniti eaque earum iste itaque quia rerum! Ea excepturi facere incidunt ipsam iure libero nemo, non pariatur rerum sequi voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section Contianer -->
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <div class="news_slider owl-carousel owl-theme">
+                        <!-- Single News -->
+                        <div class="news_item">
+                            <div class="news_img">
+                                <!-- Single News Image -->
+                                <img src="img/news4.jpg" alt="news">
+                                <!-- Single News Content hover -->
+                                <div class="news_hover">
+                                    <a href="">
+                                        <p><i class="fas fa-search"></i></p>
+                                        <span class="eye_news"><i class="far fa-eye"></i>123</span>
+                                        <span class="comment_news"><i class="fas fa-comments"></i> 34</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Single News Date -->
+                            <div class="news_date">
+                                <span><i class="fas fa-user"></i> Siam Ahnaf</span>
+                                <span><i class="far fa-calendar-alt"></i> 24 Oct. 2020</span>
+                            </div>
+                            <h4><a href="">Lorem ipsum dolor sit.</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi exercitationem harum laudantium maiores quibusdam...</p>
+                            <!-- Single News read more btn -->
+                            <div class="read_more_btn">
+                                <a href="">
+                                    Read More
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Single News -->
+                        <div class="news_item">
+                            <div class="news_img">
+                                <!-- Single News Image -->
+                                <img src="img/news2.jpg" alt="news">
+                                <!-- Single News content hover -->
+                                <div class="news_hover">
+                                    <a href="">
+                                        <p><i class="fas fa-search"></i></p>
+                                        <span class="eye_news"><i class="far fa-eye"></i>123</span>
+                                        <span class="comment_news"><i class="fas fa-comments"></i> 34</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Single News Date -->
+                            <div class="news_date">
+                                <span><i class="fas fa-user"></i> Siam Ahnaf</span>
+                                <span><i class="far fa-calendar-alt"></i> 24 Oct. 2020</span>
+                            </div>
+                            <h4><a href="">Lorem ipsum dolor sit.</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi exercitationem harum laudantium maiores quibusdam...</p>
+                            <!-- Single News read more btn -->
+                            <div class="read_more_btn">
+                                <a href="">
+                                    Read More
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Single News -->
+                        <div class="news_item">
+                            <div class="news_img">
+                                <!-- Single News image -->
+                                <img src="img/news3.jpg" alt="news">
+                                <!-- Single News content hover -->
+                                <div class="news_hover">
+                                    <a href="">
+                                        <p><i class="fas fa-search"></i></p>
+                                        <span class="eye_news"><i class="far fa-eye"></i>123</span>
+                                        <span class="comment_news"><i class="fas fa-comments"></i> 34</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Single News Date -->
+                            <div class="news_date">
+                                <span><i class="fas fa-user"></i> Siam Ahnaf</span>
+                                <span><i class="far fa-calendar-alt"></i> 24 Oct. 2020</span>
+                            </div>
+                            <h4><a href="">Lorem ipsum dolor sit.</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi exercitationem harum laudantium maiores quibusdam...</p>
+                            <!-- Single News read more btn -->
+                            <div class="read_more_btn">
+                                <a href="">
+                                    Read More
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Single News -->
+                        <div class="news_item">
+                            <div class="news_img">
+                                <!-- Single News Image -->
+                                <img src="img/news4.jpg" alt="">
+                                <!-- Single News content hover -->
+                                <div class="news_hover">
+                                    <a href="">
+                                        <p><i class="fas fa-search"></i></p>
+                                        <span class="eye_news"><i class="far fa-eye"></i>123</span>
+                                        <span class="comment_news"><i class="fas fa-comments"></i> 34</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Single News date -->
+                            <div class="news_date">
+                                <span><i class="fas fa-user"></i> Siam Ahnaf</span>
+                                <span><i class="far fa-calendar-alt"></i> 24 Oct. 2020</span>
+                            </div>
+                            <h4><a href="">Lorem ipsum dolor sit.</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi exercitationem harum laudantium maiores quibusdam...</p>
+                            <!-- Single News btn -->
+                            <div class="read_more_btn">
+                                <a href="">
+                                    Read More
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Single News -->
+                        <div class="news_item">
+                            <div class="news_img">
+                                <!-- Single News image -->
+                                <img src="img/news2.jpg" alt="">
+                                <!-- Single News content hover -->
+                                <div class="news_hover">
+                                    <a href="">
+                                        <p><i class="fas fa-search"></i></p>
+                                        <span class="eye_news"><i class="far fa-eye"></i>123</span>
+                                        <span class="comment_news"><i class="fas fa-comments"></i> 34</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Single News date -->
+                            <div class="news_date">
+                                <span><i class="fas fa-user"></i> Siam Ahnaf</span>
+                                <span><i class="far fa-calendar-alt"></i> 24 Oct. 2020</span>
+                            </div>
+                            <h4><a href="">Lorem ipsum dolor sit.</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi exercitationem harum laudantium maiores quibusdam...</p>
+                            <!-- Single News read more btn -->
+                            <div class="read_more_btn">
+                                <a href="">
+                                    Read More
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Single News -->
+                        <div class="news_item">
+                            <div class="news_img">
+                                <!-- Single News image -->
+                                <img src="img/news1.jpg" alt="">
+                                <!-- Single News content hover -->
+                                <div class="news_hover">
+                                    <a href="">
+                                        <p><i class="fas fa-search"></i></p>
+                                        <span class="eye_news"><i class="far fa-eye"></i>123</span>
+                                        <span class="comment_news"><i class="fas fa-comments"></i> 34</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Single News date -->
+                            <div class="news_date">
+                                <span><i class="fas fa-user"></i> Siam Ahnaf</span>
+                                <span><i class="far fa-calendar-alt"></i> 24 Oct. 2020</span>
+                            </div>
+                            <h4><a href="">Lorem ipsum dolor sit.</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi exercitationem harum laudantium maiores quibusdam...</p>
+                            <!-- Single News read more btn -->
+                            <div class="read_more_btn">
+                                <a href="">
+                                    Read More
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video Section -->
+    <section class="video_section">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Video Section Header -->
+                    <div class="heading">
+                        <h2>Watch Video</h2>
+                        <!-- Divider -->
+                        <img src="img/line-break-white.svg" alt="line break">
+                        <p class="heading _text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem expedita ipsum, nulla quia saepe vel?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <div class="play_button">
+                        <!-- Single News play icon -->
+                        <a href="https://youtu.be/od5nla42Jvc" data-lity>
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Price Section -->
+    <section class="price_section" data-scroll-index="5">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Price Section Header -->
+                    <div class="heading">
+                        <h1>Prices</h1>
+                        <!-- Diivder -->
+                        <img src="img/line-break-10.svg" alt="line break">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate deleniti eaque earum iste itaque quia rerum! Ea excepturi facere incidunt ipsam iure libero nemo, non pariatur rerum sequi voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section Container -->
+            <div class="row">
+                <!-- Single Price -->
+                <div class="col xl4 l4 m12 s12">
+                    <div class="single_price" data-aos="fade-left" data-aos-delay="100">
+                        <h5>Freelancer</h5>
+                        <h3>
+                            <sup>$</sup>
+                            10.99
+                            <small>/month</small>
+                        </h3>
+                        <p>Support Forum</p>
+                        <p>Free Hosting</p>
+                        <p>50GB Of Free Storage</p>
+                        <p>Admin Area</p>
+                         <!-- Single Price read more btn -->
+                        <div class="read_more_btn price_btn">
+                            <a href="">
+                                Buy Now
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Single Price -->
+                <div class="col xl4 l4 m12 s12">
+                    <div class="single_price best_price">
+                        <div class="best_text">
+                            best
+                        </div>
+                        <h5>One Project</h5>
+                        <h3>
+                            <sup>$</sup>
+                            20.99
+                            <small>/month</small>
+                        </h3>
+                        <p>Support Forum</p>
+                        <p>Free Hosting</p>
+                        <p>100GB Of Free Storage</p>
+                        <p>Admin Area</p>
+                        <p>Unlimited Hosting</p>
+                         <!-- Single Price read more btn -->
+                        <div class="read_more_btn price_btn">
+                            <a href="">
+                                Buy Now
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Single Price -->
+                <div class="col xl4 l4 m12 s12">
+                    <div class="single_price" data-aos="fade-right" data-aos-delay="100">
+                        <h5>Multiple Projects</h5>
+                        <h3>
+                            <sup>$</sup>
+                            33.99
+                            <small>/month</small>
+                        </h3>
+                        <p>Support Forum</p>
+                        <p>Free Hosting</p>
+                        <p>50GB Of Free Storage</p>
+                        <p>Admin Area</p>
+                        <p>Unlimited Hosting</p>
+                        <p>24/hr Support</p>
+                         <!-- Single Price read more btn -->
+                        <div class="read_more_btn price_btn">
+                            <a href="">
+                                Buy Now
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Status Section -->
+    <section class="status">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                     <!-- Status section header -->
+                    <div class="heading">
+                        <h2>Statistics</h2>
+                         <!-- Divider -->
+                        <img src="img/line-break-white.svg" alt="line break">
+                        <p class="heading _text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem expedita ipsum, nulla quia saepe vel?</p>
+                    </div>
+                </div>
+            </div>
+             <!-- Status Section Container -->
+            <div class="row">
+                <!-- Single Status -->
+                <div class="col xl3 l3 m12 s12">
+                    <div class="single_status">
+                        <div class="status_icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Happy Clients</h4>
+                        <h3 class="counter">1232</h3>
+                    </div>
+                </div>
+                <!-- Single Status -->
+                <div class="col xl3 l3 m12 s12">
+                    <div class="single_status">
+                        <div class="status_icon">
+                            <i class="fas fa-cloud-download-alt"></i>
+                        </div>
+                        <h4>App Downloads</h4>
+                        <h3><span class="counter">64</span>k</h3>
+                    </div>
+                </div>
+                <!-- Single Status -->
+                <div class="col xl3 l3 m12 s12">
+                    <div class="single_status">
+                        <div class="status_icon">
+                            <i class="fab fa-reddit-alien"></i>
+                        </div>
+                        <h4>Active Users</h4>
+                        <h3 class="counter">1811</h3>
+                    </div>
+                </div>
+                <!-- Single Status -->
+                <div class="col xl3 l3 m12 s12">
+                    <div class="single_status">
+                        <div class="status_icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Total Rates</h4>
+                        <h3 class="counter">232</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Faq section -->
+    <section class="faq_section" data-scroll-index="6">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 l12 m12 s12">
+                    <!-- Faq section header -->
+                    <div class="heading">
+                        <h1>FAQs</h1>
+                        <!-- Diivder -->
+                        <img src="img/line-break-10.svg" alt="line break">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate deleniti eaque earum iste itaque quia rerum! Ea excepturi facere incidunt ipsam iure libero nemo, non pariatur rerum sequi voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section Container -->
+            <div class="row">
+                <!-- Faq section Left Image -->
+                <div class="col xl5 l5 m12 s12">
+                    <div class="faq_img" data-aos="fade-right" data-aos-delay="200">
+                        <img src="img/1-2.png" alt="1-2">
+                        <img  class="faq_abs_img" src="img/1-4.png" alt="1-4">
+                    </div>
+                </div>
+                <!-- Faq section Right part -->
+                <div class="col xl7 l7 m12 s12">
+                    <div class="faq_accordian" data-aos="fade-left" data-aos-delay="100">
+                        <!-- Accordian Container -->
+                        <ul class="collapsible">
+                            <!-- Single Accordian List -->
+                            <li>
+                                <div class="collapsible-header waves-effect waves-light"><i class="fas fa-comment"></i>Why app is so awesome?<i class="faq_plus fas fa-plus"></i><i class="fas fa-minus faq_minus"></i></div>
+                                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque dolores eveniet fuga, itaque laboriosam quam sequi. Deleniti, fugiat ipsam.</span></div>
+                            </li>
+                            <!-- Single Accordian List -->
+                            <li>
+                                <div class="collapsible-header waves-effect waves-light"><i class="fas fa-comment"></i>Can I get a discount by inviting friends? <i class="faq_plus fas fa-plus"></i><i class="fas fa-minus faq_minus"></i></div>
+                                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque dolores eveniet fuga, itaque laboriosam quam sequi. Deleniti, fugiat ipsam.</span></div>
+                            </li>
+                            <!-- Single Accordian List -->
+                            <li>
+                                <div class="collapsible-header waves-effect waves-light"><i class="fas fa-comment"></i>Lorem ipsum dolor sit amet, adipisicing. <i class="faq_plus fas fa-plus"></i><i class="fas fa-minus faq_minus"></i></div>
+                                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque dolores eveniet fuga, itaque laboriosam quam sequi. Deleniti, fugiat ipsam.</span></div>
+                            </li>
+                            <!-- Single Accordian List -->
+                            <li>
+                                <div class="collapsible-header waves-effect waves-light"><i class="fas fa-comment"></i>Commodi nam quidem suscipit. <i class="faq_plus fas fa-plus"></i><i class="fas fa-minus faq_minus"></i></div>
+                                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque dolores eveniet fuga, itaque laboriosam quam sequi. Deleniti, fugiat ipsam.</span></div>
+                             </li>
+                             <!-- Single Accordian List -->
+                             <li>
+                                <div class="collapsible-header waves-effect waves-light"><i class="fas fa-comment"></i>Delectus earum nemo nihil. Error. <i class="faq_plus fas fa-plus"></i><i class="fas fa-minus faq_minus"></i></div>
+                                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque dolores eveniet fuga, itaque laboriosam quam sequi. Deleniti, fugiat ipsam.</span></div>
+                            </li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Color Template -->
+    <div class="color_template">
+        <div class="color_template_content">
+            <h5>Colors & Gradients</h5>
+        <div class="color_icon">
+            <i class="fas fa-cog"></i>
+        </div>
+        <!-- Color Template Box -->
+        <ul class="color_box">
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_1 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_2 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_3 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_4 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_5 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_6 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_7 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_8 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_9 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_10 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_11 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_12 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_13 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_14 waves-effect waves-light" href=""></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_15 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_16 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_17 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_18 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_19 waves-effect waves-light" href=""></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_20 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_21 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_22 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_23 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_24 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_25 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_26 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_27 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_28 waves-effect waves-light" href="index.html#"></a></li>
+            <!-- Single Color Template -->
+            <li class="color_num"><a class="col_style_29 waves-effect waves-light" href="index.html#"></a></li>
+        </ul>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <div class="top_footer">
+            <div id="map" class="footer_map" data-scroll-index="7">
+            </div>
+            <div class="top_footer_abs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col xl12 l12 m12 s12">
+                            <!-- Footer section header -->
+                            <div class="heading">
+                                <h1>Get In Touch</h1>
+                                <!-- Diivder -->
+                                <img src="img/line-break-10.svg" alt="line break">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer container -->
+                    <div class="row">
+                        <!-- Footer form -->
+                        <div class="col xl9 l9 m12 s12">
+                            <form action="" class="contact_form">
+                                <div class="input-field">
+                                    <i class="fas fa-user prefix"></i>
+                                    <input id="contact_name" class="validate" type="text" name="full_name" required>
+                                    <label for="contact_name">Name*</label>
+                                </div>
+                                <div class="input-field">
+                                    <i class="far fa-paper-plane prefix"></i>
+                                    <input id="contact_email" class="validate" type="email" name="email" required>
+                                    <label data-error="Wrong Email" for="contact_email">Email*</label>
+                                </div>
+                                <div class="input-field">
+                                    <i class="far fa-envelope prefix"></i>
+                                    <textarea name="message" id="contact_message" class="materialize-textarea validate" minlength="15" required></textarea>
+                                    <label data-error="Minimum Length is 15 Characters" for="contact_message">Message*</label>
+                                </div>
+                                <div class="input_send">
+                                    <i class="fas fa-circle-notch send_spin"></i>
+                                    sending message
+                                </div>
+                               <div class="input_btn">
+                                <button id="contact_submit" class="waves-effect waves-light" type="button">Send Message</button>
+                               </div>
+                            </form>
+                        </div>
+                        <!-- Footer Info -->
+                        <div class="col xl3 l3 m12 s12">
+                            <div class="address_pannel">
+                                <!-- Footer Single address -->
+                                <div class="single_address">
+                                    <p><i class="fas fa-map-marker-alt"></i></p>
+                                    <p>5 Bath Rd, Heathrow, Longford, Hounslow TW6 2AB, Bangladesh</p>
+                                </div>
+                                <!-- Footer Single address -->
+                                <div class="single_address">
+                                    <p><i class="fas fa-phone-alt"></i></p>
+                                    <p><a href="tel:+8801611994403">+8801611994403</a></p>
+                                </div>
+                                <!-- Footer Single address -->
+                                <div class="single_address">
+                                    <p><i class="fas fa-paper-plane"></i></p>
+                                    <p><a href="mailto:siamsh198@yahoo.com">siamsh198@yahoo.com</a></p>
+                                </div>
+                                <!-- Footer Single address Social -->
+                                <div class="adress_social">
+                                    <ul class="adress_show_social">
+                                        <!-- Footer Single address list item -->
+                                        <li><a class="waves-effect waves-light blue ham_1" href="#"><i class="ti-facebook"></i></a></li>
+                                        <li><a class="waves-effect waves-light blue lighten-2 ham_2" href="#"><i class="ti-twitter-alt"></i></a></li>
+                                        <li><a class="waves-effect waves-light amber ham_3" href="#"><i class="ti-instagram"></i></a></li>
+                                        <li><a class="waves-effect waves-light red ham_4" href="#"><i class="ti-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Footer -->
+        <div class="bottom_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col xl3 l3 m12 s12">
+                        <div class="single_footer">
+                            <!-- Bottom Footer header -->
+                            <h4>about us</h4>
+                            <!-- Bottom Footer header Logo -->
+                            <img class="about_logo" src="img/logo.svg" alt="logo">
+                            <img class="about_title_logo" src="img/title.png" alt="title">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, exercitationem!</p>
+                        </div>
+                    </div>
+                    <!-- Footer news -->
+                    <div class="col xl3 l3 m12 s12">
+                        <div class="single_footer">
+                            <h4>News</h4>
+                            <!-- Single news -->
+                            <div class="singe_news">
+                                <a href="">
+                                    <img class="news_singe_img" src="img/news4.jpg" alt="news">
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </a>
+                            </div>
+                            <!-- Single news -->
+                            <div class="singe_news">
+                                <a href="">
+                                    <img class="news_singe_img" src="img/news2.jpg" alt="news">
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer tag -->
+                    <div class="col xl3 l3 m12 s12">
+                        <div class="single_footer">
+                            <h4>tag</h4>
+                        <div class="tag">
+                            <!-- Footer tag -->
+                            <a class="waves-effect waves-light" href="">app</a>
+                            <a class="waves-effect waves-light" href="">apperle</a>
+                            <a class="waves-effect waves-light" href="">google</a>
+                            <a class="waves-effect waves-light" href="">androide</a>
+                            <a class="waves-effect waves-light" href="">apple</a>
+                            <a class="waves-effect waves-light" href="">watch</a>
+                            <a class="waves-effect waves-light" href="">download</a>
+                            <a class="waves-effect waves-light" href="">news</a>
+                            <a class="waves-effect waves-light" href="">articles</a>
+                            <a class="waves-effect waves-light" href="">google</a>
+                            <a class="waves-effect waves-light" href="">androide</a>
+                            <a class="waves-effect waves-light" href="">apple</a>
+                            <a class="waves-effect waves-light" href="">google</a>
+                            <a class="waves-effect waves-light" href="">watch</a>
+                            <a class="waves-effect waves-light" href="">apple</a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Footer feed -->
+                    <div class="col xl3 l3 m12 s12">
+                        <div class="single_footer">
+                            <h4>Instagram Feed</h4>
+                            <!-- Footer feed Image -->
+                            <img class="feed_img" src="img/news3.jpg" alt="news">
+                            <!-- Footer feed -->
+                            <img class="feed_img" src="img/news2.jpg" alt="news">
+                            <!-- Footer feed -->
+                            <img class="feed_img" src="img/news1.jpg" alt="news">
+                        </div>
+                    </div>
+                </div>
+                <!-- Bottom Footer -->
+                <div class="row">
+                    <div class="col xl12 l12 m12  s12">
+                        <!-- Copyright text -->
+                        <div class="copyright_text">
+                            Copyright © 2017 Apperle HTML template by <a href="" target="blank">Siam Ahnaf</a>
+                        </div>
+                        <div class="copyright_social">
+                            <!-- Footer social -->
+                            <ul>
+                                <li><a class="waves-effect waves-light blue ham_1" href="#"><i class="ti-facebook"></i></a></li>
+                                <li><a class="waves-effect waves-light blue lighten-2 ham_2" href="#"><i class="ti-twitter-alt"></i></a></li>
+                                <li><a class="waves-effect waves-light amber ham_3" href="#"><i class="ti-instagram"></i></a></li>
+                                <li><a class="waves-effect waves-light red ham_4" href="#"><i class="ti-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts dependencies - plugin -->
+    <script src="js/plugin.js"></script>
+    <!-- Google maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjidWZQfbpxMLSASqw5mnm3kV8RxLJjdU&callback=initMap" type="text/javascript"></script>
+    <!-- Map plugin -->
+    <script src="js/map.js"></script>
+    <!-- Main Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
