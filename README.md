@@ -30,6 +30,10 @@ To unlock the wonders of this project, simply follow these steps:
 ## Screenshot
 <img src="https://res.cloudinary.com/dbjrx698c/image/upload/v1695746379/scrnli_9_26_2023_10-36-44_PM_xicmwi.jpg" width="100%" height="100%" style="display: block; margin: 0 auto;">
 
+## Webinuxs
+<img src="https://res.cloudinary.com/dub0dpenl/image/upload/v1726562110/Personal/xbetf83o2drangioe1ia.png" width="100" height="100">
+Explore Webinuxs, where we bring your web and mobile app applications to life at competitive prices. Our dedicated team is committed to delivering exceptional quality and innovative web and mobile application as your needs.
+
 ## Support
 Need assistance? Drop me a line at mail@siamahnaf.com or hop on over to my lively <a href="https://wa.me/message/UAXIYNES562EN1"><img src="https://lh3.googleusercontent.com/d/13j7AgG4Pp_eWgaRoV6XH49vDU7-5TbEm" width="15" height="15"></a> messenger.
 
@@ -40,11 +44,11 @@ Need assistance? Drop me a line at mail@siamahnaf.com or hop on over to my livel
 I am your go-to entity for web application development. Whether it's creating beautiful frontend, robust backend, or ensuring smooth deployment, I've got you covered.
 
 - **Frontend Development**
-Crafting stunning and responsive user interfaces is my passion. I ensure your web app not only looks great but also delivers an exceptional user experience.
+I specialize in creating custom web and mobile applications as your unique needs and requirements.
 - **Backend Development**
-I build secure, scalable, and high-performance server-side solutions, tailored to your needs, ensuring your web app runs smoothly.
-- **Deployment Services**
-I handle server setup, configuration, and maintenance, ensuring your web app is deployed securely and efficiently.
+My backend development services cover everything from database design to server-side logic.
+- **Cloud Services**
+I take care of deploying your web applications to production environments securely.
 
 ## Connect with me
 <div style="display: flex; align-items: center; gap: 3px;">
