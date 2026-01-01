@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780157/Personal%20Logo/logo-white_e6fujz.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780152/Personal%20Logo/logo-dark_qqwrqu.png">
-  <img alt="Siam Ahnaf" src="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780152/Personal%20Logo/logo-dark_qqwrqu.png" height="auto" width="240">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/logo-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/logo-black.png">
+  <img alt="Siam Ahnaf" src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/logo-black.png" height="auto" width="240">
 </picture>
 
 # Apperle
@@ -29,27 +29,27 @@ To unlock the wonders of this project, simply follow these steps:
 - jQuery
 - Material ui
   
-<img src="https://lh3.googleusercontent.com/d/1fHZqd2oOmHF82sAEd36U7fhtXMJfvaak" width="30px" height="30px" /> <img src="https://lh3.googleusercontent.com/d/1ji0clZMU2jhNMv2afsZkaBr9GEaw5ccv" width="30px" height="30px" /> <img src="https://lh3.googleusercontent.com/d/1qTuyY-0kfwLSj3kul8grFXbAiuJZmkK9" width="30px" height="30px" /> <img src="https://lh3.googleusercontent.com/d/1AIraDFbwd_AUUYvoeRr5s3GQ9z8YgWMR" width="30px" height="30px" />
+<img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/toolsets/html.png" width="30px" height="30px" /> <img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/toolsets/css-2.png" width="30px" height="30px" /> <img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/toolsets/jquery.png" width="30px" height="30px" /> <img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/toolsets/bootstrap.png" width="30px" height="30px" />
 
 ## Screenshot
-<img src="https://res.cloudinary.com/dbjrx698c/image/upload/v1695746379/scrnli_9_26_2023_10-36-44_PM_xicmwi.jpg" width="100%" height="100%" style="display: block; margin: 0 auto;">
+<img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/screenshots/apperles.jpg" width="100%" height="100%" style="display: block; margin: 0 auto;">
 
 ## Webinuxs
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1732166724/Webinuxs/WebinuxsLogo1_Recovered_v9ganh.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1732166723/Webinuxs/WebinuxsLogo2_Recovered_ynnf90.png">
-  <img alt="Siam Ahnaf" src="https://res.cloudinary.com/dub0dpenl/image/upload/v1732166723/Webinuxs/WebinuxsLogo2_Recovered_ynnf90.png" height="auto" width="140">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/webinuxs-logo-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/webinuxs-logo-black.png">
+  <img alt="Siam Ahnaf" src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/webinuxs-logo-black.png" height="auto" width="140">
 </picture> <br/>
 Explore Webinuxs, where we bring your web and mobile app applications to life at competitive prices. Our dedicated team is committed to delivering exceptional quality and innovative web and mobile application as your needs.
 
 ## Support
-Need assistance? Drop me a line at mail@siamahnaf.com or hop on over to my lively <a href="https://wa.me/message/UAXIYNES562EN1"><img src="https://lh3.googleusercontent.com/d/13j7AgG4Pp_eWgaRoV6XH49vDU7-5TbEm" width="15" height="15"></a> messenger.
+Need assistance? Drop me a line at mail@siamahnaf.com or hop on over to my lively <a href="https://wa.me/message/UAXIYNES562EN1"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/whatsapp.png" width="15" height="15"></a> messenger.
 
 ## Author(s)
 - [www.siamahnaf.com](https://www.siamahnaf.com/)
 
 ## Who I am?
-I am your go-to entity for web application development. Whether it's creating beautiful frontend, robust backend, or ensuring smooth deployment, I've got you covered.
+I'm Siam Ahnaf, a passionate developer who loves to learn new things and create awesome projects. I enjoy working on front-end, back-end, and mobile app development and have experience with various programming languages and frameworks.
 
 - **Frontend Development**
 I specialize in creating custom web and mobile applications as your unique needs and requirements.
@@ -60,12 +60,13 @@ I take care of deploying your web applications to production environments secure
 
 ## Connect with me
 <div style="display: flex; align-items: center; gap: 3px;">
-<a href="https://wa.me/message/UAXIYNES562EN1"><img src="https://lh3.googleusercontent.com/d/13j7AgG4Pp_eWgaRoV6XH49vDU7-5TbEm" width="40" height="40"></a>
-<a href="https://www.linkedin.com/in/siamahnaf/" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1hqME_Okrps0P1tKi18Rl66W7oa334daw" width="40" height="40"></a>
-<a href="https://twitter.com/siamahnaf198" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1gCRI58aHh_TXF7uGOMu9F-E2eN4x6AyS" width="40" height="40"></a>
-<a href="https://www.facebook.com/siamahnaf198/" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1gttW7FCHrt2fNCaVQXEYC_wUCYbOYpTJ" width="40" height="40"></a>
-<a href="https://t.me/siamahnaf198" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1v8rpDVzSc4GmXS8axq5y3fR1i-OnRRaY" width="40" height="40"></a>
-<a href="https://www.npmjs.com/~siamahnaf" style="margin-right: 8px"><img src="https://lh3.googleusercontent.com/d/1t6V2ZlSUyDhwgSaJ5CCj_wDxkQIYQKjR" width="40" height="40"></a>
+<a href="https://wa.me/8801611994403"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/whatsapp.png" width="40" height="40"></a>
+<a href="https://siamahnaf.com/" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/web.png" width="40" height="40"></a>
+<a href="https://www.linkedin.com/in/siamahnaf/" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/linkedin.png" width="40" height="40"></a>
+<a href="https://x.com/siamahnaf198" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/x.png" width="40" height="40"></a>
+<a href="https://www.facebook.com/siamahnaf198/" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/facebook.png" width="40" height="40"></a>
+<a href="https://t.me/siamahnaf198" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/telegram.png" width="40" height="40"></a>
+<a href="https://www.npmjs.com/~siamahnaf" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/npm.png" width="40" height="40"></a>
 </div>
 
 
